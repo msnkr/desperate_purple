@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/msnkr/Pictures/EzOfjEBVUAAYYn7.jpg"
+let background = "#0C012D"
+let foreground = "#edc3f5"
+let cursor     = "#edc3f5"
+
+" Colors
+let color0  = "#0C012D"
+let color1  = "#B529F5"
+let color2  = "#D60CEC"
+let color3  = "#C72CFB"
+let color4  = "#AA49D7"
+let color5  = "#DE5FF9"
+let color6  = "#D1D3BA"
+let color7  = "#edc3f5"
+let color8  = "#a588ab"
+let color9  = "#B529F5"
+let color10 = "#D60CEC"
+let color11 = "#C72CFB"
+let color12 = "#AA49D7"
+let color13 = "#DE5FF9"
+let color14 = "#D1D3BA"
+let color15 = "#edc3f5"

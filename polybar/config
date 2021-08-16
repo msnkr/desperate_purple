@@ -23,7 +23,7 @@ background-alt = #444
 ;foreground = ${xrdb:color7:#222}
 foreground = #D60cec
 foreground-alt = #555
-primary = #f29ffb
+primary = #fcea99
 secondary = #e60053
 alert = #bd2c40
 
@@ -53,7 +53,7 @@ module-margin-right = 2
 
 font-0 = fixed:pixelsize=8;2
 font-1 = unifont:fontformat=truetype:size=8:antialias=false;0
-font-2 = siji:pixelsize=8;6
+font-2 = siji:pixelsize=8;3
 font-3 = Font Awesome 5 Brands:pixelsize=8;2 
 font-4 = Font Awesome 5 Free Regular:pixelsize=8;2
 font-5 = Font Awesome 5 Free Solid:pixelsize=8;2
@@ -64,7 +64,7 @@ modules-right = xbacklight pulseaudio filesystem memory cpu wlan battery tempera
 line-seperator = |
 
 tray-position = right
-tray-padding = 3
+tray-padding = 6
 ;tray-background = #0063ff
 
 ;wm-restack = bspwm
@@ -231,9 +231,9 @@ type = internal/network
 interface = wlan0
 interval = 3.0
 
-format-connected = <ramp-signal> <label-connected>
+format-connected = <ramp-signal> <label-connected> 
 format-connected-underline = ${colors.foreground}
-label-connected =
+label-connected = %essid%
 
 format-disconnected =
 ;format-disconnected = <label-disconnected>
